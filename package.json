@@ -1,0 +1,23 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paudel54/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paudel54/Tailwind/issues"
+  },
+  "homepage": "https://github.com/paudel54/Tailwind#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
