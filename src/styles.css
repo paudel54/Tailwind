@@ -8,7 +8,7 @@
 
 @import "tailwindcss/utilities";
 
-//creating custom utilitites class.
+/* //creating custom utilitites class.
 @layer utilities {
   //adding custom padding utilities
   .p21 {
@@ -28,4 +28,4 @@
     //using apply directives we can create our component class
     @apply py-2px-2 bg-blue-500  text-white focus:ring-opacity-75;
   }
-}
+} */
