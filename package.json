@@ -1,10 +1,10 @@
 {
-  "name": "landingPage",
+  "name": "Tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:tailwinds": "tailwind build src/styles.css -o public/output.css"
+    "build": "tailwindcss -i src/styles.css -o public/output.css -w"
   },
   "repository": {
     "type": "git",
