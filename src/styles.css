@@ -1,31 +1,9 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
 
-/* //creating custom utilitites class.
-@layer utilities {
-  //adding custom padding utilities
-  .p21 {
-    padding: 5.5rem;
-  }
-  //variants utilites class can be used to keep hover or pesudo classes
-  @varients hover,focus {
-    .p21 {
-      padding: 5.5rem;
-    }
-  }
-}
+//Importing google fonts
 
-//creating custom components layer will put this class into component directives
-@layer components {
-  .btn-blue {
-    //using apply directives we can create our component class
-    @apply py-2px-2 bg-blue-500  text-white focus:ring-opacity-75;
-  }
-} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
