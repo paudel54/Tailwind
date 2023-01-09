@@ -724,6 +724,10 @@ body {
     display: flex;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:-scroll-mt-12 {
     scroll-margin-top: -3rem;
   }
