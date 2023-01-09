@@ -637,6 +637,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
 .block {
   display: block;
 }
@@ -732,6 +736,10 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -1071,6 +1079,10 @@ video {
     margin-top: 6rem;
   }
 
+  .lg\:mt-52 {
+    margin-top: 13rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1085,6 +1097,10 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:items-start {
