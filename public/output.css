@@ -551,6 +551,18 @@ video {
   right: 0px;
 }
 
+.-bottom-24 {
+  bottom: -6rem;
+}
+
+.-left-36 {
+  left: -9rem;
+}
+
+.-right-36 {
+  right: -9rem;
+}
+
 .left-72 {
   left: 18rem;
 }
@@ -563,20 +575,8 @@ video {
   bottom: -7rem;
 }
 
-.-right-36 {
-  right: -9rem;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.-left-36 {
-  left: -9rem;
-}
-
-.-bottom-24 {
-  bottom: -6rem;
 }
 
 .z-10 {
@@ -618,8 +618,28 @@ video {
   margin-top: 5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mt-28 {
@@ -644,26 +664,6 @@ video {
 
 .mt-52 {
   margin-top: 13rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .mt-0 {
@@ -894,14 +894,14 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
-.bg-bookmark-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 15 212 / var(--tw-bg-opacity));
-}
-
 .bg-bookmark-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(145 148 162 / var(--tw-bg-opacity));
+}
+
+.bg-bookmark-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 15 212 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -938,14 +938,14 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-left {
@@ -958,11 +958,6 @@ video {
 
 .font-Poppins {
   font-family: Poppins, sans-serif;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-2xl {
@@ -980,6 +975,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -995,12 +995,12 @@ video {
   line-height: 2.5rem;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .uppercase {
@@ -1022,24 +1022,24 @@ video {
   color: rgb(145 148 162 / var(--tw-text-opacity));
 }
 
-.text-bookmark-red {
-  --tw-text-opacity: 1;
-  color: rgb(250 89 89 / var(--tw-text-opacity));
-}
-
 .text-bookmark-purple {
   --tw-text-opacity: 1;
   color: rgb(82 103 223 / var(--tw-text-opacity));
 }
 
-.text-bookmark-white {
-  --tw-text-opacity: 1;
-  color: rgb(247 247 247 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-bookmark-red {
+  --tw-text-opacity: 1;
+  color: rgb(250 89 89 / var(--tw-text-opacity));
+}
+
+.text-bookmark-white {
+  --tw-text-opacity: 1;
+  color: rgb(247 247 247 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1181,14 +1181,6 @@ video {
 
   .lg\:-right-36 {
     right: -9rem;
-  }
-
-  .lg\:-left-36 {
-    left: -9rem;
-  }
-
-  .lg\:-bottom-24 {
-    bottom: -6rem;
   }
 
   .lg\:my-8 {
