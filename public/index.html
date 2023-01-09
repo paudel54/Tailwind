@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font-awesome-icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
 </head>
 
 <body class="font-Poppins">
@@ -18,17 +18,19 @@
     <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">
             <div class="py-1">
-                <img src="./imgs/logo-bookmark.svg" alt="Bookmark_logo">
+                <img src="./imgs/logo-bookmark.svg" alt="Bookmark_logo" />
             </div>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
                 <li class="cursor-pointer">Features</li>
                 <li class="cursor-pointer">Pricing</li>
                 <li class="cursor-pointer">Contact</li>
-                <button type="button" class="bg-bookmark-red text-white rounded-md py-3 px-7 uppercase">Login</button>
+                <button type="button" class="bg-bookmark-red text-white rounded-md py-3 px-7 uppercase">
+                    Login
+                </button>
             </ul>
             <div class="flex flex-1 justify-end sm:hidden">
                 <!-- added font awesome class -->
-                <i class=" text-2xl fa-solid fa-bars"> </i>
+                <i class="text-2xl fa-solid fa-bars"> </i>
             </div>
         </nav>
     </header>
@@ -42,26 +44,28 @@
                     A Simple Bookmark Manager.
                 </h2>
                 <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see
-                    your sites load instantly. Try it for free.
+                    A clean and simple interface to organize your favourite websites.
+                    Open a new browser tab and see your sites load instantly. Try it for
+                    free.
                 </p>
                 <div class="flex justify-center flex-wrap gap-6">
-                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it on
-                        Chrome</button>
-                    <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
-                        FireFox</button>
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+                        Get it on Chrome
+                    </button>
+                    <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+                        Get it on FireFox
+                    </button>
                 </div>
-
             </div>
 
             <!-- Image -->
             <div class="flex flex-1 justify-center mb-10 md:mb-16 lg:mb-0 z-10">
                 <img src="./imgs/hero-bg.png" alt="image card"
-                    class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+                    class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" />
             </div>
             <!-- Rounded Rectangle -->
             <div
-                class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0  lg:-bottom-28 lg:-right-36 ">
+                class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36">
             </div>
         </div>
     </section>
@@ -70,23 +74,50 @@
     <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
         <!-- Heading -->
         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-            <h1 class="text-3xl text-center text-bookmark-blue"> Features</h1>
+            <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
             <p class="text-center text-bookmark-grey mt-4">
-                Our aim is to make it quick and easy for you to access your favourite websites. Your Bookmarks will be
-                most useful to your device so you can access them on the go.
+                Our aim is to make it quick and easy for you to access your favourite
+                websites. Your Bookmarks will be most useful to your device so you can
+                access them on the go.
             </p>
         </div>
-
         <!-- Feature #1 -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img src="./imgs/illustration-features-tab-1.png"
+                        class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" alt="feature image" />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+                    <p class="text-bookmark-grey my-4 text-center lg:text-left sm:3/4 lg:w-full">
+                        Organize your bookmark however you like. Our simple drag-and-drop
+                        interface gives you complete idea over how you manage your favourite
+                        sites.
+                    </p>
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+                        More Info
+                    </button>
+                </div>
+
+                <!-- Rounded Rectangle -->
+                <div
+                    class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36">
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <div class=" container text-bookmark-red text-6xl">
-        let's check if tailwind worked
-    </div>
+
 </body>
 
-
 <!-- //imported google fonts
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); */ -->
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"); 
+
+*/ -->
 
 </html>
