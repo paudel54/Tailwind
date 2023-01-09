@@ -2,11 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  background-color: aqua;
-  z-index: -2;
-}
-
 .btn {
   @apply shadow-md py-3 px-6 rounded-md transition duration-300;
 }
