@@ -539,8 +539,20 @@ video {
   position: relative;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .table {
@@ -567,12 +579,40 @@ video {
   resize: both;
 }
 
+.-scroll-mt-12 {
+  scroll-margin-top: -3rem;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
 .border {
   border-width: 1px;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .font-Poppins {
   font-family: Poppins, sans-serif;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-bookmark-red {
@@ -580,9 +620,24 @@ video {
   color: rgb(250 89 89 / var(--tw-text-opacity));
 }
 
+.text-bookmark-purple {
+  --tw-text-opacity: 1;
+  color: rgb(82 103 223 / var(--tw-text-opacity));
+}
+
+.text-bookmark-white {
+  --tw-text-opacity: 1;
+  color: rgb(247 247 247 / var(--tw-text-opacity));
+}
+
 .text-bookmark-blue {
   --tw-text-opacity: 1;
   color: rgb(12 15 212 / var(--tw-text-opacity));
+}
+
+.text-bookmark-grey {
+  --tw-text-opacity: 1;
+  color: rgb(145 148 162 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -595,4 +650,14 @@ video {
 
 body {
   background-color: aqua;
+}
+
+@media (min-width: 640px) {
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:-scroll-mt-12 {
+    scroll-margin-top: -3rem;
+  }
 }
