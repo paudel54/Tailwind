@@ -787,6 +787,10 @@ video {
   flex-wrap: wrap;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -801,6 +805,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-12 {
@@ -818,6 +826,10 @@ video {
 .gap-x-24 {
   -moz-column-gap: 6rem;
        column-gap: 6rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
