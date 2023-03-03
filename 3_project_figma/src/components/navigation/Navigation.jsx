@@ -96,6 +96,37 @@ const Navigation = () => {
         </div>
       </div>
       {/*  Inspiration Collection*/}
+      <div className="py-16 text-gray-600">
+        <div className="w-9/12 mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-2xl font-bold">Inspiration Collection</p>
+            <p className="text-gray-500">
+              Check out our Amazing Inspirational Collection
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-10">
+            <div className="h-94 w-34 bg-cover overflow-hidden rounded-tl-[4.5rem] mt-16">
+              <img
+                src="https://st.hzcdn.com/simgs/7b71f4890ed67f5c_4-3080/transitional-living-room.jpg"
+                alt="couch room"
+              />
+            </div>
+            <div className="h-94 w-34 overflow-hidden">
+              <img
+                src="http://novo-design.co.id/blog/wp-content/uploads/2022/08/17091-outline-sofa-3-5-seater-oslo-lounge-chair-swivel-black-ocean-50-strand-60-echo-62x42-divina-224-soft-side-off-white-smoked-oak-black-pebble-light-grey-org-768x1024.webp"
+                alt="sofa set"
+              />
+            </div>
+            <div className="h-[50vh] w-auto overflow-hidden rounded-br-[4.5rem] mt-16">
+              <img
+                src="https://static.dezeen.com/uploads/2021/12/porada-furniture-design-collection_dezeen_2364_col_38-scaled.jpg"
+                // https://static.dezeen.com/uploads/2021/12/porada-furniture-design-collection_dezeen_2364_col_38-scaled.jpg
+                alt="tv cabinet"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
