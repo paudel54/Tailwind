@@ -23,7 +23,7 @@ const Navigation = () => {
                 <a href="/#">Services</a>
               </li>
               <li className="cursor-pointer hover:text-blue-800">
-                <a href="/#">Doctors</a>
+                <a href="/#">Top Rated</a>
               </li>
               <li className="cursor-pointer hover:text-blue-800">
                 <a href="/#">Products</a>
@@ -107,18 +107,21 @@ const Navigation = () => {
           <div className="grid grid-cols-3 gap-10">
             <div className="h-94 w-34 bg-cover overflow-hidden rounded-tl-[4.5rem] mt-16">
               <img
+                className="h-94 w-34"
                 src="https://st.hzcdn.com/simgs/7b71f4890ed67f5c_4-3080/transitional-living-room.jpg"
                 alt="couch room"
               />
             </div>
             <div className="h-94 w-34 overflow-hidden">
               <img
+                className="h-94 w-34"
                 src="http://novo-design.co.id/blog/wp-content/uploads/2022/08/17091-outline-sofa-3-5-seater-oslo-lounge-chair-swivel-black-ocean-50-strand-60-echo-62x42-divina-224-soft-side-off-white-smoked-oak-black-pebble-light-grey-org-768x1024.webp"
                 alt="sofa set"
               />
             </div>
-            <div className="h-[50vh] w-auto overflow-hidden rounded-br-[4.5rem] mt-16">
+            <div className="h-94 w-34  overflow-hidden rounded-br-[4.5rem] mt-16">
               <img
+                className="h-94 w-34 rounded-br-[4.5rem]"
                 src="https://static.dezeen.com/uploads/2021/12/porada-furniture-design-collection_dezeen_2364_col_38-scaled.jpg"
                 // https://static.dezeen.com/uploads/2021/12/porada-furniture-design-collection_dezeen_2364_col_38-scaled.jpg
                 alt="tv cabinet"
