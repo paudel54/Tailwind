@@ -1,6 +1,7 @@
 import React from "react";
 import SkinClinic from "../../assets/SkinClinic.png";
 import Background from "../../assets/Mask_Group.jpg";
+import Girl from "../../assets/Girl.png";
 
 import { FiTruck } from "react-icons/fi";
 import { Ri24HoursLine } from "react-icons/ri";
@@ -47,11 +48,14 @@ const Navigation = () => {
           <p className="font-bold text-5xl text-[#054C73]">
             Discover Our New Collection
           </p>
-          <p className="text-gray-600">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis
-            maiores ab, suscipit magni repudiandae, nisi unde a vero dignissimos
-            debitis inventore, ullam quam expedita? Laborum commodi possimus
-            ratione officiis voluptate!
+          <p className="text-gray-600 text-justify">
+            Welcome to our furniture shop, where we offer a wide variety of
+            high-quality and stylish furniture pieces to elevate the comfort and
+            beauty of your home. Our shop is dedicated to providing our
+            customers with excellent service, expert advice, and affordable
+            prices. From classic designs to modern styles, we have something to
+            suit every taste and budget. Come visit us and discover the perfect
+            furniture pieces to make your house a home.
           </p>
           <button className="bg-[#054C73] text-white py-3 px-6 rounded-full text-sm font-semibold uppercase">
             Button now
@@ -130,6 +134,59 @@ const Navigation = () => {
           </div>
         </div>
       </div>
+      {/* Next Section */}
+      <div className="bg-[#F2F5FF] text-gray-600 py-16">
+        <div className="w-9/12 mx-auto">
+          <div className="flex justify-between items-center-gap-12">
+            <div className="w-5/12 space-y-4">
+              <p className="text-2xl font-bold">Beautify Your Space</p>
+              <p className="text-gray=500 leading-7 text-justify">
+                Beautifying spaces can be achieved through various means. One
+                way is to use colors and textures that complement each other to
+                create a visually pleasing environment. Adding plants and
+                flowers can also enhance the aesthetic appeal of a space while
+                also providing a natural element. Incorporating art, whether it
+                be paintings, sculptures, or other forms of artistic expression,
+                can also elevate the beauty of a space. Proper lighting, both
+                natural and artificial, can also play a significant role in
+                enhancing the ambiance and attractiveness of a space.
+                Ultimately, beautifying spaces requires creativity, attention to
+                detail, and an understanding of how different design elements
+                can work together to create a cohesive and visually appealing
+                environment.
+              </p>
+              <button className="py-3 px-6 rounded bg-[#054C73] text-white text-sm font-semibold">
+                Learn More
+              </button>
+            </div>
+            {/* flex item div */}
+            <div className="relative w-5/12 z-10">
+              <div>
+                <img src={Girl} alt="girl icon" className="w-10/12" />
+              </div>
+
+              <div class="absolute top-1/2 right-0 -translate-y-2/4 -z-10">
+                <svg
+                  width="372"
+                  height="374"
+                  viewBox="0 0 372 374"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse
+                    cx="186"
+                    cy="186.995"
+                    rx="186"
+                    ry="186.855"
+                    fill="#09513B"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* end of section next init */}
     </div>
   );
 };
