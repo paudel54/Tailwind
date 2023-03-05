@@ -3,6 +3,14 @@ import SkinClinic from "../../assets/SkinClinic.png";
 import Background from "../../assets/Mask_Group.jpg";
 import Girl from "../../assets/Girl.png";
 
+import Design1 from "../../assets/Design1.png";
+import Design2 from "../../assets/Design2.png";
+import Design3 from "../../assets/Design3.png";
+
+import Gman from "../../assets/Gman.png";
+import Gware from "../../assets/Gware.png";
+import Groom from "../../assets/Groom.png";
+
 import { FiTruck } from "react-icons/fi";
 import { Ri24HoursLine } from "react-icons/ri";
 import { MdVerifiedUser } from "react-icons/md";
@@ -187,6 +195,103 @@ const Navigation = () => {
         </div>
       </div>
       {/* end of section next init */}
+      <div className="bg-white py-16 text-gray-600">
+        <div className="w-9/12 mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-2xl font-bold">Browse The Range</p>
+            <p className="text-gray-500">With the Lavish Design and Outlook.</p>
+          </div>
+          {/* image side by side implies flex with gap */}
+          <div className="flex gap-10 justify-center">
+            <div className="h-94 w-34 overflow-hidden">
+              <img src={Design1} alt="" />
+              <p className="text-center text-2xl font-bold mt-4 text-gray-700">
+                Dining
+              </p>
+            </div>
+            <div className="h-94 w-34 overflow-hidden">
+              <img src={Design3} alt="" />
+              <p className="text-center text-2xl font-bold mt-4 text-gray-700">
+                Living
+              </p>
+            </div>
+            <div className="h-94 w-34 overflow-hidden">
+              <img src={Design2} alt="" />
+              <p className="text-center text-2xl font-bold mt-4 text-gray-700">
+                Bedroom
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* New section  */}
+      <div className=" bg-white py-16 text-gray-700 w-9/12 mx-auto">
+        <div className="w-9/12 mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-2xl font-bold">How It Works</p>
+            <p className="text-gray-500">
+              Give us a Call, Email, or Simply text from anywhere we are 24/7
+              live on your services!
+            </p>
+          </div>
+          {/* images  */}
+          <div>
+            <div className="flex gap-10">
+              <div className="h-94 w-34 overflow-hidden">
+                <img src={Gman} alt="" />
+                <p className="text-center text-2xl font-bold mt-4 text-gray-700">
+                  Purchase Securely
+                </p>
+                <p className="text-center text-sm w-9/12 mx-auto">
+                  We assure the safest purchase on our commodities.
+                </p>
+              </div>
+              <div className="h-94 w-34 overflow-hidden">
+                <img src={Gware} alt="" />
+                <p className="text-center text-2xl font-bold mt-4 text-gray-700">
+                  Ship From Warehouse
+                </p>
+                <p className="text-center text-sm w-9/12 mx-auto">
+                  We assure the safest purchase on our commodities.
+                </p>
+              </div>
+              <div className="h-94 w-34 overflow-hidden">
+                <img src={Groom} alt="" />
+                <p className="text-center text-2xl  font-bold mt-4 text-gray-700">
+                  Purchase Securely
+                </p>
+                <p className="text-center text-sm w-9/12 mx-auto">
+                  We assure the safest purchase on our commodities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* next Section  Join Mailing list:*/}
+      <div className="bg-white py-16 text-gray-600">
+        <div className="w-9/12 mx-auto text-center">
+          <div className="mb-12">
+            <p className="text-2xl font-bold">Join Our Mailing List</p>
+            <p className="text-gray-500 w-5/12 mx-auto">
+              Sign Up to receive inspiration, product updates, and special
+              offers from our team.
+            </p>
+          </div>
+          <div className="inline-block border  border-[#054C73] rounded-md">
+            <input
+              type="text"
+              placeholder="david@gmail.com"
+              className=" py-3 px-4 rounded-l-md placeholder:text-gray-400 placehoder:text-xs bg-white placeholder:text-center "
+            />
+            <button className="py-5 px-5 bg-[#054C73] text-white text-sm rounded-r-md">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* footer Section  */}
+      <footer>This is Footer</footer>
     </div>
   );
 };
