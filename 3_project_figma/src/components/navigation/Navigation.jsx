@@ -11,6 +11,11 @@ import Gman from "../../assets/Gman.png";
 import Gware from "../../assets/Gware.png";
 import Groom from "../../assets/Groom.png";
 
+import IG1 from "../../assets/IG-1.jpg";
+import IG2 from "../../assets/IG-2.jpg";
+import IG3 from "../../assets/IG-3.jpg";
+import IG4 from "../../assets/IG-4.jpg";
+
 import { FiTruck } from "react-icons/fi";
 import { Ri24HoursLine } from "react-icons/ri";
 import { MdVerifiedUser } from "react-icons/md";
@@ -291,7 +296,32 @@ const Navigation = () => {
         </div>
       </div>
       {/* footer Section  */}
-      <footer>This is Footer</footer>
+      <footer className="py-16 bg-[#03344F] text-gray-200">
+        <div className="w-9/12 mx-auto">
+          <div className="flex justify-between gap-10">
+            <div className="w-4/12 space-y-4">
+              <p className="text-2xl font-bold ">Beauty Cares</p>
+              <p className="text-sm text-gray-300 text-justify">
+                The asthetic decor of home and office make much value. People
+                often neglates this but infact this makes much sense on hiring a
+                client. Every client seeks room astheic.
+              </p>
+              <a href="/#" className="inline-block text-lg font-semibold">
+                Follow US
+              </a>
+            </div>
+            <div className=" space-y-4">
+              <p className="text-2xl font-bold">Instagram Shop</p>
+              <div className="grid grid-cols-4 gap-3">
+                <img className="rounded-md" src={IG1} alt="insta img" />
+                <img className="rounded-md" src={IG2} alt="insta img" />
+                <img className="rounded-md" src={IG3} alt="insta img" />
+                <img className="rounded-md" src={IG4} alt="insta img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
