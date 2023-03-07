@@ -9,7 +9,7 @@ const Screen4 = () => {
       <div className="w-8/12 mx-auto">
         <div className="flex items-center gap-3">
           <div className="w-1/2">
-            <div className="jangam w-1/2 h-full absolute top-0 left-0 bottom-0 opacity-30 "></div>
+            <div className="jangam w-1/2 h-full absolute top-0 left-0 bottom-0 opacity-60 "></div>
             <div className="w-1/2 bg-gradient-to-l from-gray-50 via transparent absolute top-0 left-0 bottom-0 height-full"></div>
             <div className="flex gap-12">
               <div className="flex flex-col gap-12">
