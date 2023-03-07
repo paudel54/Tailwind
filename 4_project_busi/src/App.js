@@ -7,6 +7,7 @@ import Team from './pages/Screen4'
 import Testimonials from './pages/Screen5';
 import Contact from './pages/Screen6';
 import Features from './pages/Screen7';
+import Loading from './pages/Screen8';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Features />
+      <Loading />
     </>
   );
 }

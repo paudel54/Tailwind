@@ -67,7 +67,6 @@ const Screen7 = () => {
           />
         </div>
       </div>
-      Features
     </div>
   );
 };
