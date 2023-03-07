@@ -18,8 +18,9 @@ const Screen2 = () => {
             <div className="grid grid-cols-3 gap-6 mx-auto">
               {/* cards */}
               <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
-                <div>
+                <div className="h-[21rem] w-full">
                   <img
+                    className="h-full w-full object-cover"
                     src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/87/92.jpg"
                     alt="dental"
                   />
@@ -267,7 +268,7 @@ const Screen2 = () => {
                 </div>
                 <div className="px-6 py-4 space-y-2">
                   {/* stars */}
-                  <div className="flex items-center text-sm text-amber-400">
+                  <div className="flex items-center text-sm text-amber-400 relative">
                     <span>
                       <AiTwotoneStar />
                     </span>
@@ -283,6 +284,7 @@ const Screen2 = () => {
                     <span className="ml-2 text-xs text-gray-600">
                       981 Reviews
                     </span>
+                    <div className="absolute right-0 top-8 text-[2rem]">❤️‍🔥</div>
                   </div>
                 </div>
                 <p className="text-lg font-bold text-gray-600 text-center -mt-2">
@@ -305,6 +307,12 @@ const Screen2 = () => {
                 </div>
               </div>
             </div>
+          </div>
+          {/* End of Grid */}
+          <div className="mt-8  text-center">
+            <button className="text-gray-600 rounded-md py-2.5 px-6 bg-white border border-gray-100 text-lg shadow-xl hover:shadow-lg">
+              Discover More
+            </button>
           </div>
         </div>
       </div>
