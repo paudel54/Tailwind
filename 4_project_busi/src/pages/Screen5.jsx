@@ -60,7 +60,6 @@ const Screen5 = () => {
           </div>
         </div>
       </div>
-      I am testimonials Sections
     </div>
   );
 };

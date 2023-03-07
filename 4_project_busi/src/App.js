@@ -6,6 +6,7 @@ import Screen3 from './pages/Screen3';
 import Team from './pages/Screen4'
 import Testimonials from './pages/Screen5';
 import Contact from './pages/Screen6';
+import Features from './pages/Screen7';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Team />
       <Testimonials />
       <Contact />
+      <Features />
     </>
   );
 }
