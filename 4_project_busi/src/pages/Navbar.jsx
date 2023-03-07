@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="w-9/12 mx-auto flex justify-between items-center py-5">
         <div>
           <a href="/#" className="text-lg">
-            Discover Destination
+            AR Origin
           </a>
         </div>
         <div>

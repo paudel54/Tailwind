@@ -13,7 +13,7 @@ const Screen1 = () => {
         {/* Creating a Banner */}
         <img
           className="h-full w-full object-cover"
-          src="https://i.pinimg.com/originals/32/0a/32/320a325067df6f75911151e23fc98a67.jpg"
+          src="https://www.pixelstalk.net/wp-content/uploads/images6/Travel-Wallpaper-Free-Download.jpg"
           alt="food"
         />
         {/* adding overlay background black transparent */}
