@@ -4,7 +4,7 @@ import { MdContactEmergency } from "react-icons/md";
 
 const Screen6 = () => {
   return (
-    <div className="bg-sky-50 py-36">
+    <div className="bg-slate-100 py-36">
       <div className="w-9/12 mx-auto">
         <div className="shadow-lg rounded-xl relative">
           <img
@@ -19,17 +19,17 @@ const Screen6 = () => {
                 <div className="mb-5">
                   <p className="text-4xl font-bold mb-5">Find Us</p>
                   <div className="flex gap-6 ">
-                    <div className="border-r  p-4">
+                    <div className="border-r  pr-4">
                       <p className="bold text-2xl">New York</p>
                       <p className="text-sm">
                         Derrick Street Boston, MA 02130 USA
                       </p>
                     </div>
-                    <div className="border-r  border-white p-4">
+                    <div className="border-r  border-white  pr-4">
                       <p className="bold text-2xl">Narita</p>
                       <p className="text-sm"> CI 876 JAPAN</p>
                     </div>
-                    <div className="p-4">
+                    <div className="pr-4">
                       <p className="bold text-2xl">Xi Nank</p>
                       <p className="text-sm">Zhamg Mu, China</p>
                     </div>

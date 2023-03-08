@@ -6,7 +6,7 @@ const Screen2 = () => {
   return (
     <div>
       <div className="bg-gray-300 py-32">
-        <div className="w-9/12 mx-auto">
+        <div className="w-8/12 mx-auto">
           <div className="text-center mb-12">
             <p className="text-4xl font-bold text-gray-600 mb-3">
               Popular Places
@@ -15,10 +15,10 @@ const Screen2 = () => {
           </div>
 
           <div>
-            <div className="grid grid-cols-3 gap-6 mx-auto">
+            <div className="grid grid-cols-3 gap-10 mx-auto">
               {/* cards */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
-                <div className="h-[21rem] w-full">
+              <div className="bg-white rounded-md shadow hover:shadow-xl overflow-hidden">
+                <div className="h-[21rem] w-full ">
                   <img
                     className="h-full w-full object-cover"
                     src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/87/92.jpg"
@@ -65,7 +65,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card 2 */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
+              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[21rem] overflow-hidden w-full ">
                   <img
                     className="h-full w-full object-cover"
@@ -102,18 +102,18 @@ const Screen2 = () => {
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
-                    Clinic
+                    Shopping Center
                   </span>
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
-                    Hospital
+                    Mall
                   </span>
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
-                    Health Post
+                    Childrens wear
                   </span>
                 </div>
               </div>
               {/* card 3 */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
+              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="w-full h-[21rem] ">
                   <img
                     className="w-full h-full object-cover"
@@ -162,7 +162,7 @@ const Screen2 = () => {
               </div>
 
               {/* card4 */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
+              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[21rem] w-full  ">
                   <img
                     className="h-full w-full object-cover"
@@ -210,7 +210,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card5 */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
+              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[21rem]  w-full">
                   <img
                     className="h-full w-full object-cover"
@@ -258,7 +258,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card6 */}
-              <div className="bg-white rounded-md shadow max-w-xl overflow-hidden">
+              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[21rem]  w-full object-cover">
                   <img
                     className="h-full w-full "
@@ -321,9 +321,3 @@ const Screen2 = () => {
 };
 
 export default Screen2;
-
-{
-  /* <div className="h-[21rem] overflow-hidden w-full ">
-<img
-  className="h-full w-full object-cover" */
-}

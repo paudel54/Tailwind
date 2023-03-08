@@ -4,7 +4,7 @@ const Cardsm = ({ imgUrl, text }) => {
   return (
     <a
       href="/#"
-      className="p-4 bg-white w-60 hover:shadow-lg space-y-5 rounded-lg"
+      className="p-4 bg-white w-60 hover:shadow-lg transition-all space-y-5 rounded-lg"
     >
       <img className="w-32 h-32 mx-auto rounded-full" src={imgUrl} alt="" />
       <div className="space-y-2 text-center">

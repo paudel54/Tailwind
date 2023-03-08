@@ -2,7 +2,6 @@
 import Gridvalu from "../components/Gridvalu";
 import { BsChatSquareText } from "react-icons/bs";
 import { MdOutlineAnalytics } from "react-icons/md";
-import { GrNotes } from "react-icons/gr";
 import { BiChip } from "react-icons/bi";
 import { SlChemistry } from "react-icons/sl";
 import { SiFurrynetwork } from "react-icons/si";
@@ -19,7 +18,7 @@ const Screen7 = () => {
           </p>
         </div>
         <div className="grid grid-cols-3 gap-16">
-          <div className="p-4 rounded-md hover:bg-white hover:shadow-lg">
+          <div className="p-4 rounded-md hover:bg-white hover:shadow-lg transition-all">
             <button className="text-gray-600 bg-slate-100 p-2 rounded-md shadow-md">
               <BsChatSquareText className="text-purple-800 text-xl" />
             </button>

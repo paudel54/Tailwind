@@ -5,7 +5,7 @@ import Gridsm from "../components/Gridsm";
 
 const Screen3 = () => {
   return (
-    <div className="bg-sky-50 py-32">
+    <div className="bg-sky-50 py-32 pb-0">
       <div className="w-2/3 mx-auto">
         {/* text display */}
         <div className="text-center mb-12">

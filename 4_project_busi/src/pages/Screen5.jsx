@@ -1,6 +1,5 @@
 // Testimonials Section:
 import React from "react";
-import Button from "../components/Button";
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
 import { IoMdQuote } from "react-icons/io";
@@ -43,7 +42,7 @@ const Screen5 = () => {
             </div>
           </div>
           <div className="w-1/2 text-gray-600">
-            <p className="text-xl font-semibold capitalize mb-3">
+            <p className="text-xl font-bold capitalize mb-3 ">
               Help us improve our Efficiency!
             </p>
             <p className="mb-6">
