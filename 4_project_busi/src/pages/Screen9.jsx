@@ -14,7 +14,7 @@ const Screen9 = () => {
             </ul>
           </div>
           {/* flex component */}
-          <div className="mb-5">
+          <div className="mb-5 md:hidden lg:inline-block">
             <p className="uppercase font-bold mb-2 text-white">Business</p>
             <ul>
               <li className="text-white">Grow Product</li>
@@ -23,7 +23,7 @@ const Screen9 = () => {
             </ul>
           </div>
           {/* felx compo */}
-          <div className="mb-5">
+          <div className="mb-5 md: ml-20 lg:ml-10">
             <p className="uppercase font-bold mb-2 text-white">Support</p>
             <ul>
               <li className="text-white">Toll Free No</li>
@@ -32,7 +32,7 @@ const Screen9 = () => {
             </ul>
           </div>
           {/* Follow us icon with images */}
-          <div>
+          <div className="md:ml-20">
             <p className="uppercase font-bold mb-2 text-white">Follow Us</p>
             <ul className="flex gap-3 justify-center items-center">
               <img
@@ -62,7 +62,7 @@ const Screen9 = () => {
         </div>
         {/* copyright Section */}
         <div className="pt-1 md:pt-6 lg:pt-12 ">
-          <p className="text-gray-100 text-sm">
+          <p className="text-gray-100 text-sm text-center">
             2023 @ AR Origin. All rights reserved.
           </p>
         </div>

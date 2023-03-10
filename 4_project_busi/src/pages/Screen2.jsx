@@ -19,7 +19,7 @@ const Screen2 = () => {
           <div>
             <div className="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto">
               {/* cards */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl overflow-hidden">
                 <div className="h-[14rem] lg:h-[21rem] w-full ">
                   <img
                     className="h-full w-full object-cover"
@@ -42,17 +42,19 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs text-gray-600  dark:text-gray-100">
                       1409 reviews
                     </span>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold text-gray-600 dark:text-gray-100 text-center -mt-2">
                   Nagarkot ViewPoint
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">Bhaktapur</span>
+                  <ImLocation className="dark:text-white" />
+                  <span className="text-gray-600  dark:text-gray-100 ">
+                    Bhaktapur
+                  </span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
@@ -67,7 +69,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card 2 */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[14rem] lg:h-[21rem] overflow-hidden w-full ">
                   <img
                     className="h-full w-full object-cover"
@@ -90,17 +92,17 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs text-gray-600  dark:text-gray-100">
                       620 Reviews
                     </span>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold text-gray-600 text-center -mt-2  dark:text-gray-100">
                   Star Mall
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">CA</span>
+                  <ImLocation className=" dark:text-gray-100" />
+                  <span className="text-gray-600  dark:text-gray-100">CA</span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
@@ -112,7 +114,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card 3 */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="w-full h-[14rem] lg:h-[21rem] ">
                   <img
                     className="w-full h-full object-cover"
@@ -135,17 +137,19 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs  dark:text-gray-100 text-gray-600">
                       785 Reviews
                     </span>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold  dark:text-gray-100 text-gray-600 text-center -mt-2">
                   Children's Park
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">Banglore</span>
+                  <ImLocation className=" dark:text-gray-100" />
+                  <span className="text-gray-600  dark:text-gray-100 ">
+                    Banglore
+                  </span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
@@ -161,7 +165,7 @@ const Screen2 = () => {
               </div>
 
               {/* card4 */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[14rem] lg:h-[21rem] w-full  ">
                   <img
                     className="h-full w-full object-cover"
@@ -184,17 +188,19 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs  dark:text-gray-100 text-gray-600">
                       802 Reviews
                     </span>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold  dark:text-gray-100 text-gray-600 text-center -mt-2">
                   Golden Gate
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">India</span>
+                  <ImLocation className=" dark:text-gray-100" />
+                  <span className="text-gray-600  dark:text-gray-100">
+                    India
+                  </span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
@@ -209,7 +215,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card5 */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[14rem] lg:h-[21rem]  w-full">
                   <img
                     className="h-full w-full object-cover"
@@ -232,17 +238,19 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs text-gray-600  dark:text-gray-100">
                       1261 Reviews
                     </span>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold text-gray-600  dark:text-gray-100 text-center -mt-2">
                   Great Wall of China
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">Tao he</span>
+                  <ImLocation className=" dark:text-gray-100" />
+                  <span className="text-gray-600  dark:text-gray-100 ">
+                    Tao he
+                  </span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
@@ -257,7 +265,7 @@ const Screen2 = () => {
                 </div>
               </div>
               {/* card6 */}
-              <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
+              <div className="bg-white dark:bg-gray-800 dark:border dark:border-gray-600 rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
                 <div className="h-[14rem] lg:h-[21rem] w-full object-cover">
                   <img
                     className="h-full w-full "
@@ -280,7 +288,7 @@ const Screen2 = () => {
                     <span>
                       <AiTwotoneStar />
                     </span>
-                    <span className="ml-2 text-xs text-gray-600">
+                    <span className="ml-2 text-xs text-gray-600  dark:text-gray-100 ">
                       981 Reviews
                     </span>
                     <div className="text-[1rem] absolute -right-4 lg:right-4 top-8 lg:text-[2rem] ">
@@ -288,12 +296,14 @@ const Screen2 = () => {
                     </div>
                   </div>
                 </div>
-                <p className="text-lg font-bold text-gray-600 text-center -mt-2">
+                <p className="text-lg font-bold text-gray-600  dark:text-gray-100 text-center -mt-2">
                   Patan Durbar Square
                 </p>
                 <p className="flex gap-1 justify-center">
-                  <ImLocation />
-                  <span className="text-gray-600 ">Kathmandu</span>
+                  <ImLocation className=" dark:text-gray-100" />
+                  <span className="text-gray-600  dark:text-gray-100 ">
+                    Kathmandu
+                  </span>
                 </p>
                 <div className="flex justify-center py-1 mb-1 gap-2">
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">

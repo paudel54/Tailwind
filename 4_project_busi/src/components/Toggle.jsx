@@ -22,9 +22,9 @@ const Toggle = () => {
     <div>
       <button
         onClick={handleThemeSwitch}
-        className="bg-green-200 p-4 rounded-3xl"
+        className="bg-gray-200 p-3 mt-10 md:ml-10 rounded-3xl hover:bg-green-600 transition-all hover:text-white"
       >
-        Dark Mode
+        Mode
       </button>
     </div>
   );
