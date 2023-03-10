@@ -4,6 +4,7 @@ const Toggle = () => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
+    console.log("I am use Effect ");
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
