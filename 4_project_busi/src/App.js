@@ -9,6 +9,7 @@ import Contact from './pages/Screen6';
 import Features from './pages/Screen7';
 import Loading from './pages/Screen8';
 import Footer from './pages/Screen9';
+import Helper from './components/Helper';
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       <Features />
       <Loading />
       <Footer />
+      <Helper />
     </>
   );
 }
