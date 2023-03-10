@@ -1,8 +1,8 @@
 import React from "react";
-
+import Toggle from "../components/Toggle";
 const Screen9 = () => {
   return (
-    <footer className="bg-gray-800 md:py-8 lg:py-14 border-t">
+    <footer className="bg-gray-800 md:py-8 lg:py-14 border-t dark:border-gray-600  dark:bg-gray-800">
       <div className="w-8/12 mx-auto ">
         <div className="flex flex-col flex-wrap justify-center items-center md:flex-row  lg:justify-between py-6 lg:py-12">
           <div className="mb-5">
@@ -57,6 +57,8 @@ const Screen9 = () => {
               />
             </ul>
           </div>
+          {/* toggle btn */}
+          <Toggle />
         </div>
         {/* copyright Section */}
         <div className="pt-1 md:pt-6 lg:pt-12 ">

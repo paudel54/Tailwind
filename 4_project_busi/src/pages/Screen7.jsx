@@ -8,19 +8,19 @@ import { SiFurrynetwork } from "react-icons/si";
 
 const Screen7 = () => {
   return (
-    <div className="bg-slate-50 py-10 md:py-24 lg:py-36">
+    <div className="bg-slate-50 py-10 md:py-24 lg:py-36  dark:bg-gray-800">
       <div className="w-8/12 mx-auto">
         <div className="text-center text-gray-600 mb-12">
-          <p className="text-xl md:text-2xl lg:text-4xl font-bold mb-2">
+          <p className="text-xl md:text-2xl lg:text-4xl font-bold mb-2 dark:text-gray-100">
             Our Valuable Customers
           </p>
-          <p className="text-sm">
+          <p className="text-sm dark:text-gray-100">
             We are much overwhelmed to serve our active customers with our
             proactive services.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
-          <div className="flex flex-col items-center md:items-start p-4 rounded-md hover:bg-white hover:shadow-lg transition-all">
+          <div className="flex flex-col items-center md:items-start p-4 rounded-md hover:bg-white dark:hover:bg-transparent border border-transparent dark:hover:border-gray-700 hover:shadow-lg transition-all">
             <button className="text-gray-600 bg-slate-100 p-2 rounded-md shadow-md">
               <BsChatSquareText className="text-purple-800 text-xl " />
             </button>

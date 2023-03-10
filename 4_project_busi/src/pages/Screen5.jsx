@@ -6,16 +6,16 @@ import { IoMdQuote } from "react-icons/io";
 
 const Screen5 = () => {
   return (
-    <div className="bg-white py-32 relative z-10">
-      <div className="bg-slate-50 w-8/12 absolute bottom-0 right-0 top-16 -z-10 rounded-tl-3xl"></div>
-      <div className="w-8/12 lg:w-10/12 xl:w-8/12 text-center mx-auto">
+    <div className="bg-white py-32 relative z-10  dark:bg-gray-800">
+      <div className="bg-slate-50 w-8/12 absolute bottom-0 right-0 top-16 -z-10 rounded-tl-3xl dark:bg-gray-800"></div>
+      <div className="w-8/12 lg:w-10/12 xl:w-8/12 text-center mx-auto ">
         <div className="mb-10 md:mb-20">
-          <p className="text-3xl md:text-4xl font-bold text-gray-600 w-full lg:w-5/12">
+          <p className="text-3xl md:text-4xl font-bold text-gray-600 dark:text-gray-100 w-full lg:w-5/12">
             What Our Customers Are Saying!
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center ">
-          <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
+          <div className="w-full lg:w-1/2 mb-10 lg:mb-0  ">
             <div className="w-10/12 h-72 relative mb-10 md:mb-6">
               <div className="depika opacity-40 h-48 w-32  absolute -top-24 -left-16 -z-10 "></div>
               <div className="depika opacity-40 h-48 w-32  absolute -bottom-24 -right-16 -z-10 "></div>
@@ -42,10 +42,10 @@ const Screen5 = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 text-gray-600">
-            <p className="text-xl font-bold capitalize mb-8 md:mb-3 ">
+            <p className="text-xl font-bold capitalize mb-8 md:mb-3 dark:text-gray-100">
               Help us improve our Efficiency!
             </p>
-            <p className="mb-20 md:mb-6">
+            <p className="mb-20 md:mb-6 dark:text-gray-100">
               By spreading word-of-mouth recommendations and sharing their
               satisfaction with others, customers can help increase brand
               awareness and attract new users to the product. It is important to
@@ -53,8 +53,10 @@ const Screen5 = () => {
               can greatly contribute to the success and growth of a project.
             </p>
             <div>
-              <p className="font-bold text-lg">Deepika Ghimire</p>
-              <p>Lead Marketing Manager</p>
+              <p className="font-bold text-lg dark:text-gray-100">
+                Deepika Ghimire
+              </p>
+              <p className="dark:text-gray-100">Lead Marketing Manager</p>
             </div>
           </div>
         </div>

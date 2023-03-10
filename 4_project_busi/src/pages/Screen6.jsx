@@ -4,7 +4,7 @@ import { MdContactEmergency } from "react-icons/md";
 
 const Screen6 = () => {
   return (
-    <div className="bg-slate-100 lg:py-36">
+    <div className="bg-slate-100 lg:py-36  dark:bg-gray-800">
       <div className="w-full lg:w-9/12 mx-auto">
         <div
           className="shadow-lg lg:rounded-xl w-full h-[46rem] bg-cover  bg-center z-10 relative"
@@ -43,55 +43,77 @@ const Screen6 = () => {
               </div>
 
               <div className="mx-auto lg:w-1/2">
-                <div className="bg-white/70 max-w-lg rounded-md shadow p-6 ml-auto space-y-2 md:space-y-4 lg:space-y-6 text-gray-600">
+                <div className="bg-white/70 dark:bg-gray-800 max-w-lg rounded-md shadow p-6 ml-auto space-y-2 md:space-y-4 lg:space-y-6 text-gray-600">
                   <div>
-                    <p className="text-xl md:text-4xl font-bold mb-4">
+                    <p className="text-xl md:text-4xl font-bold mb-4 dark:text-gray-100">
                       Get In Touch
                     </p>
-                    <p className="mb-2 lg:mb-0">
+                    <p className="mb-2 lg:mb-0 dark:text-gray-100">
                       Need help or have some feedback for us?
                     </p>
-                    <p>Fill out the form below to contact our team.</p>
+                    <p className="dark:text-gray-50">
+                      Fill out the form below to contact our team.
+                    </p>
                   </div>
                   <form
                     action=""
-                    className="space-y-1 md:space-y-2 lg:space-y-4"
+                    className="space-y-1 md:space-y-2 lg:space-y-4 "
                   >
                     <div className="flex  text-gray-600 gap-6">
                       <div>
-                        <label htmlFor="first-name">First Name</label>
+                        <label
+                          htmlFor="first-name"
+                          className="dark:text-gray-100"
+                        >
+                          First Name
+                        </label>
                         <input
                           placeholder="  Jane"
                           type="text"
-                          className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
+                          className="bg-white dark:bg-gray-800 py-2 w-full text-gray-600 rounded-md border dark:border-gray-700 mt-0.5"
                         />
                       </div>
 
                       <div>
-                        <label htmlFor="first-name">Last Name</label>
+                        <label
+                          htmlFor="first-name"
+                          className="dark:text-gray-100"
+                        >
+                          Last Name
+                        </label>
                         <input
                           placeholder="  Smith"
                           type="text"
-                          className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
+                          className="py-2 w-full dark:bg-gray-800 text-gray-600 rounded-md border dark:border-gray-700 mt-0.5"
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label htmlFor="first-name">Email</label>
+                      <label
+                        htmlFor="first-name"
+                        className="dark:text-gray-100"
+                      >
+                        Email
+                      </label>
                       <input
                         placeholder="  mail@test.com"
                         type="email"
-                        className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
+                        className="py-2 w-full dark:bg-gray-800 text-gray-600 rounded-md border dark:border-gray-700 mt-0.5"
                       />
                     </div>
                     <div>
-                      <label htmlFor="first-name">Message</label>
+                      <label
+                        htmlFor="first-name"
+                        className="dark:text-gray-100"
+                      >
+                        Message
+                      </label>
                       <textarea
                         rows="4"
                         placeholder="  message"
                         type="text"
-                        className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
+                        className="py-2 w-full dark:bg-gray-800 text-gray-600 rounded-md border dark:border-gray-700 mt-0.5"
                       />
                     </div>
                     <div>

@@ -5,13 +5,15 @@ import { ImLocation } from "react-icons/im";
 const Screen2 = () => {
   return (
     <div>
-      <div className="bg-gray-300 py-32">
+      <div className="bg-gray-300 py-32  dark:bg-gray-800">
         <div className="w-8/12 md:w-10/12 lg:w-8/12 mx-auto">
           <div className="text-center mb-12">
-            <p className="text-4xl font-bold text-gray-600 mb-3">
+            <p className="text-4xl font-bold text-gray-600 dark:text-gray-100 mb-3">
               Popular Places
             </p>
-            <p className="text-gray-600">Discover Most Searched Places</p>
+            <p className="text-gray-600 dark:text-gray-100">
+              Discover Most Searched Places
+            </p>
           </div>
 
           <div>

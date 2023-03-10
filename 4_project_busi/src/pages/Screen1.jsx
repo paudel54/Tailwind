@@ -10,7 +10,7 @@ const Screen1 = () => {
   return (
     <div>
       <div
-        className="relative h-screen bg-left lg:bg-top bg-cover"
+        className="relative h-screen bg-left lg:bg-top bg-cover "
         style={{
           backgroundImage: `url("https://www.pixelstalk.net/wp-content/uploads/images6/Travel-Wallpaper-Free-Download.jpg")`,
         }}
