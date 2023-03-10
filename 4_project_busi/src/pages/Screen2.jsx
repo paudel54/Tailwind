@@ -6,7 +6,7 @@ const Screen2 = () => {
   return (
     <div>
       <div className="bg-gray-300 py-32">
-        <div className="w-8/12 mx-auto">
+        <div className="w-8/12 md:w-10/12 lg:w-8/12 mx-auto">
           <div className="text-center mb-12">
             <p className="text-4xl font-bold text-gray-600 mb-3">
               Popular Places
@@ -15,10 +15,10 @@ const Screen2 = () => {
           </div>
 
           <div>
-            <div className="grid grid-cols-3 gap-10 mx-auto">
+            <div className="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto">
               {/* cards */}
               <div className="bg-white rounded-md shadow hover:shadow-xl overflow-hidden">
-                <div className="h-[21rem] w-full ">
+                <div className="h-[14rem] lg:h-[21rem] w-full ">
                   <img
                     className="h-full w-full object-cover"
                     src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/87/92.jpg"
@@ -66,7 +66,7 @@ const Screen2 = () => {
               </div>
               {/* card 2 */}
               <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
-                <div className="h-[21rem] overflow-hidden w-full ">
+                <div className="h-[14rem] lg:h-[21rem] overflow-hidden w-full ">
                   <img
                     className="h-full w-full object-cover"
                     src="https://i.ytimg.com/vi/8ZpwbAhrj0k/maxresdefault.jpg"
@@ -107,14 +107,11 @@ const Screen2 = () => {
                   <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
                     Mall
                   </span>
-                  <span className="text-xs px-2 py-0.5 bg-amber-100 border border-amber-200 text-amber-700 rounded-full ">
-                    Childrens wear
-                  </span>
                 </div>
               </div>
               {/* card 3 */}
               <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
-                <div className="w-full h-[21rem] ">
+                <div className="w-full h-[14rem] lg:h-[21rem] ">
                   <img
                     className="w-full h-full object-cover"
                     src="https://images.unsplash.com/photo-1546699718-5871c27b4197?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
@@ -163,7 +160,7 @@ const Screen2 = () => {
 
               {/* card4 */}
               <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
-                <div className="h-[21rem] w-full  ">
+                <div className="h-[14rem] lg:h-[21rem] w-full  ">
                   <img
                     className="h-full w-full object-cover"
                     src="https://www.jonesaroundtheworld.com/wp-content/uploads/2022/01/India-Gate-New-Delhi-India-Landmak.jpg"
@@ -211,7 +208,7 @@ const Screen2 = () => {
               </div>
               {/* card5 */}
               <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
-                <div className="h-[21rem]  w-full">
+                <div className="h-[14rem] lg:h-[21rem]  w-full">
                   <img
                     className="h-full w-full object-cover"
                     src="https://cdn.destguides.com/files/store/itinerary/396/background_image/jpeg_medium_202112291737-ab49363f466b371ac6de9c284aa1c90d.jpeg"
@@ -259,7 +256,7 @@ const Screen2 = () => {
               </div>
               {/* card6 */}
               <div className="bg-white rounded-md shadow hover:shadow-xl transition-all overflow-hidden">
-                <div className="h-[21rem]  w-full object-cover">
+                <div className="h-[14rem] lg:h-[21rem] w-full object-cover">
                   <img
                     className="h-full w-full "
                     src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ef/5c/54/durbar-square-bhaktapur.jpg?w=500&h=400&s=1"
@@ -284,7 +281,9 @@ const Screen2 = () => {
                     <span className="ml-2 text-xs text-gray-600">
                       981 Reviews
                     </span>
-                    <div className="absolute right-0 top-8 text-[2rem]">❤️‍🔥</div>
+                    <div className="text-[1rem] absolute -right-4 lg:right-4 top-8 lg:text-[2rem] ">
+                      ❤️‍🔥
+                    </div>
                   </div>
                 </div>
                 <p className="text-lg font-bold text-gray-600 text-center -mt-2">

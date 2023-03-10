@@ -2,7 +2,7 @@ import React from "react";
 
 const Gridvalu = ({ Icon, text }) => {
   return (
-    <div className="p-4 rounded-md hover:bg-white hover:shadow-lg transition-all">
+    <div className="p-4 rounded-md hover:bg-white hover:shadow-lg transition-all flex flex-col items-center md:items-start ">
       <button className="text-gray-600 bg-slate-100 p-2 rounded-md shadow-md">
         {<Icon className="text-purple-800 text-xl" />}
       </button>

@@ -4,18 +4,23 @@ import { MdContactEmergency } from "react-icons/md";
 
 const Screen6 = () => {
   return (
-    <div className="bg-slate-100 py-36">
-      <div className="w-9/12 mx-auto">
-        <div className="shadow-lg rounded-xl relative">
-          <img
+    <div className="bg-slate-100 lg:py-36">
+      <div className="w-full lg:w-9/12 mx-auto">
+        <div
+          className="shadow-lg lg:rounded-xl w-full h-[46rem] bg-cover  bg-center z-10 relative"
+          style={{
+            backgroundImage: `url(https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-4.0.3&q=80&cs=tinysrgb&fm=jpg&crop=entropy)`,
+          }}
+        >
+          {/* <img
             className="w-full h-[46rem] object-cover rounded-xl"
             src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-4.0.3&q=80&cs=tinysrgb&fm=jpg&crop=entropy"
             alt=""
-          />
-          <div className="bg-black/60 absolute inset-0 h-full rounded-xl"></div>
+          /> */}
+          <div className="bg-black/60 absolute inset-0 h-full -z-10 lg:rounded-xl"></div>
           <div className="absolute right-8 left-8 top-24">
-            <div className="flex items-end">
-              <div className="w-1/2 text-gray-100">
+            <div className="flex  flex-col-reverse  gap-12 lg:gap-0 lg:flex-row items-end">
+              <div className="w-1/2 hidden sm:hidden  lg:inline  text-gray-100">
                 <div className="mb-5">
                   <p className="text-4xl font-bold mb-5">Find Us</p>
                   <div className="flex gap-6 ">
@@ -37,19 +42,26 @@ const Screen6 = () => {
                 </div>
               </div>
 
-              <div className="w-1/2">
-                <div className="bg-white/70 max-w-lg rounded-md shadow p-6 ml-auto space-y-6 text-gray-600">
+              <div className="mx-auto lg:w-1/2">
+                <div className="bg-white/70 max-w-lg rounded-md shadow p-6 ml-auto space-y-2 md:space-y-4 lg:space-y-6 text-gray-600">
                   <div>
-                    <p className="text-4xl font-bold mb-4">Get In Touch</p>
-                    <p>Need help or have some feedback for us?</p>
+                    <p className="text-xl md:text-4xl font-bold mb-4">
+                      Get In Touch
+                    </p>
+                    <p className="mb-2 lg:mb-0">
+                      Need help or have some feedback for us?
+                    </p>
                     <p>Fill out the form below to contact our team.</p>
                   </div>
-                  <form action="" className="space-y-4">
-                    <div className="flex text-gray-600 gap-6">
+                  <form
+                    action=""
+                    className="space-y-1 md:space-y-2 lg:space-y-4"
+                  >
+                    <div className="flex  text-gray-600 gap-6">
                       <div>
                         <label htmlFor="first-name">First Name</label>
                         <input
-                          placeholder="Jane"
+                          placeholder="  Jane"
                           type="text"
                           className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
                         />
@@ -58,7 +70,7 @@ const Screen6 = () => {
                       <div>
                         <label htmlFor="first-name">Last Name</label>
                         <input
-                          placeholder="Smith"
+                          placeholder="  Smith"
                           type="text"
                           className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
                         />
@@ -68,7 +80,7 @@ const Screen6 = () => {
                     <div>
                       <label htmlFor="first-name">Email</label>
                       <input
-                        placeholder="mail@test.com"
+                        placeholder="  mail@test.com"
                         type="email"
                         className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
                       />
@@ -77,7 +89,7 @@ const Screen6 = () => {
                       <label htmlFor="first-name">Message</label>
                       <textarea
                         rows="4"
-                        placeholder="message"
+                        placeholder="  message"
                         type="text"
                         className="py-2 w-full text-gray-600 rounded-md border mt-0.5"
                       />

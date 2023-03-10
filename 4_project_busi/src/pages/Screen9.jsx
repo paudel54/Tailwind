@@ -2,10 +2,10 @@ import React from "react";
 
 const Screen9 = () => {
   return (
-    <footer className="bg-gray-800 py-14 border-t">
+    <footer className="bg-gray-800 md:py-8 lg:py-14 border-t">
       <div className="w-8/12 mx-auto ">
-        <div className="flex justify-between py-12">
-          <div>
+        <div className="flex flex-col flex-wrap justify-center items-center md:flex-row  lg:justify-between py-6 lg:py-12">
+          <div className="mb-5">
             <p className="uppercase font-bold mb-2 text-white">AR Origin</p>
             <ul>
               <li className="text-white">Our Services</li>
@@ -14,16 +14,16 @@ const Screen9 = () => {
             </ul>
           </div>
           {/* flex component */}
-          <div>
+          <div className="mb-5">
             <p className="uppercase font-bold mb-2 text-white">Business</p>
             <ul>
-              <li className="text-white">Grow Your Enterprises</li>
+              <li className="text-white">Grow Product</li>
               <li className="text-white">A step Call</li>
               <li className="text-white">Marketing</li>
             </ul>
           </div>
           {/* felx compo */}
-          <div>
+          <div className="mb-5">
             <p className="uppercase font-bold mb-2 text-white">Support</p>
             <ul>
               <li className="text-white">Toll Free No</li>
@@ -59,7 +59,7 @@ const Screen9 = () => {
           </div>
         </div>
         {/* copyright Section */}
-        <div className="pt-12 ">
+        <div className="pt-1 md:pt-6 lg:pt-12 ">
           <p className="text-gray-100 text-sm">
             2023 @ AR Origin. All rights reserved.
           </p>

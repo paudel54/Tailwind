@@ -15,7 +15,7 @@ const Screen3 = () => {
           <p className="text-gray-600 mt-2">Sort your Prefrences</p>
         </div>
         {/* grid */}
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid place-items-center grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 gap-10">
           <a
             href="/#"
             className="p-4 bg-white w-60 hover:shadow-lg space-y-5 rounded-lg"
@@ -69,12 +69,12 @@ const Screen3 = () => {
       </div>
       {/* collections */}
       <div className="bg-slate-100 py-32">
-        <div className="w-8/12 mx-auto">
+        <div className="w-10/12 md:w-8/12 mx-auto">
           <div className="text-center mb-12">
             <p className="text-4xl font-bold text-gray-600 mb-3">Collections</p>
             <p className="text-gray-600">Discover List of Top Fooding Places</p>
           </div>
-          <div className="grid grid-cols-4 gap-10">
+          <div className="grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
             <div className="relative w-56 h-64 overflow-hidden shadow-md hover:shadow-lg">
               <img
                 className="rounded w-full h-full object-cover shadow"

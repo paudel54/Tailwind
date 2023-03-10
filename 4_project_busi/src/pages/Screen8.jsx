@@ -3,13 +3,13 @@ import React from "react";
 
 const Screen8 = () => {
   return (
-    <div className="bg-sky-50 py-36">
+    <div className="bg-sky-50 py-10 md:py-24 lg:py-36">
       <div className="w-8/12 mx-auto">
-        <div className="text-center text-gray-600 mb-12 ">
+        <div className="text-center text-gray-600 mb-8  lg:mb-12 ">
           <p className="text-4xl font-bold mb-2">UpComing Events</p>
           <p>Our Upcoming features.</p>
         </div>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="bg-white rounded-md shadow p-5 flex flex-col items-center justify-center gap-5">
             <div className="w-32 h-32 rounded-full bg-gray-200 animate-pulse"></div>
             <div className="space-y-2">

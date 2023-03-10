@@ -6,16 +6,16 @@ import { SiSololearn } from "react-icons/si";
 const Screen4 = () => {
   return (
     <div className="bg-gray-50 py-32 relative">
-      <div className="w-8/12 mx-auto">
-        <div className="flex items-center gap-3">
-          <div className="w-1/2">
-            <div className="jangam w-1/2 h-full absolute top-0 left-0 bottom-0 opacity-60 "></div>
-            <div className="w-1/2 bg-gradient-to-l from-gray-50 via transparent absolute top-0 left-0 bottom-0 height-full"></div>
-            <div className="flex gap-12">
-              <div className="flex flex-col gap-12">
+      <div className="w-8/12 lg:w-10/12 xl:w-8/12 mx-auto">
+        <div className="flex flex-col lg:flex-row  flex-center justify-center gap-3">
+          <div className=" w-full lg:w-1/2 mb-12 lg:mb-0 flex items-center justify-center">
+            <div className="hidden lg:inline jangam w-1/2 h-full absolute top-0 left-0 bottom-0 opacity-60 "></div>
+            <div className="hidden lg:inline w-1/2 bg-gradient-to-l from-gray-50 via transparent absolute top-0 left-0 bottom-0 height-full"></div>
+            <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-12">
+              <div className="flex flex-col justify-center items-center gap-12">
                 <div className="relative">
                   <img
-                    className="w-48 h-60 object-cover rounded-md shadow-md"
+                    className="w-48 h-60 lg:h-52 xl:h-60 object-cover rounded-md shadow-md"
                     src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8MHx8&w=1000&q=80"
                     alt=""
                   />
@@ -29,7 +29,7 @@ const Screen4 = () => {
 
                 <div className="relative">
                   <img
-                    className="w-48 h-60 object-cover rounded-md shadow-md"
+                    className="w-48 h-60 lg:h-52 xl:h-60 object-cover rounded-md shadow-md"
                     src="https://img.freepik.com/free-photo/business-woman-posing-suit-white-background-high-quality-photo_114579-62304.jpg?w=360"
                     alt=""
                   />
@@ -42,10 +42,10 @@ const Screen4 = () => {
                 </div>
               </div>
               {/* duplicate */}
-              <div className="flex flex-col gap-12 mt-12">
+              <div className="flex flex-col justify-center items-center gap-12">
                 <div className="relative">
                   <img
-                    className="w-48 h-60 object-cover rounded-md shadow-md"
+                    className="w-48 h-60 lg:h-52 xl:h-60 object-cover rounded-md shadow-md"
                     src="https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
                     alt=""
                   />
@@ -59,7 +59,7 @@ const Screen4 = () => {
 
                 <div className="relative">
                   <img
-                    className="w-48 h-60 object-cover rounded-md shadow-md"
+                    className="w-48 h-60 object-cover rounded-md shadow-md lg:h-52 xl:h-60"
                     src="https://thumbs.dreamstime.com/b/average-teenage-boy-29205908.jpg"
                     alt=""
                   />
@@ -73,12 +73,12 @@ const Screen4 = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <p className="text-sm font-bold uppercase text-indigo-500 mb-1">
               Our Support Heroes
             </p>
             <p className="text-4xl font-bold ">Meet The Team</p>
-            <p className="mt-3 text-gray-500 text-lg">
+            <p className="mt-3 text-gray-500 text-lg text-justify">
               Our team is incredibly efficient and effective when it comes to
               accomplishing tasks. We work together seamlessly, utilizing each
               other's strengths and expertise to ensure that projects are
